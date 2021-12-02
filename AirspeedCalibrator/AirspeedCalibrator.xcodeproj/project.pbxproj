@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0216BE127554AC6009A2950 /* AirspeedCalibratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216BE027554AC6009A2950 /* AirspeedCalibratorApp.swift */; };
+		D0216BE327554AC6009A2950 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216BE227554AC6009A2950 /* ContentView.swift */; };
+		D0216BE527554AC8009A2950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0216BE427554AC8009A2950 /* Assets.xcassets */; };
+		D0216BE827554AC8009A2950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0216BE727554AC8009A2950 /* Preview Assets.xcassets */; };
+		D0216BF327554AC8009A2950 /* AirspeedCalibratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216BF227554AC8009A2950 /* AirspeedCalibratorTests.swift */; };
+		D0216BFD27554AC8009A2950 /* AirspeedCalibratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216BFC27554AC8009A2950 /* AirspeedCalibratorUITests.swift */; };
+		D0216BFF27554AC8009A2950 /* AirspeedCalibratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216BFE27554AC8009A2950 /* AirspeedCalibratorUITestsLaunchTests.swift */; };
+		D0216C0C27569086009A2950 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0216C0B27569086009A2950 /* README.md */; };
+		D0216C0E27569F1D009A2950 /* GarminLogReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216C0D27569F1D009A2950 /* GarminLogReader.swift */; };
+		D0216C1027569FAB009A2950 /* LogFileBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0216C0F27569FAB009A2950 /* LogFileBase.swift */; };
+		D0216C142756A118009A2950 /* test-data in Resources */ = {isa = PBXBuildFile; fileRef = D0216C132756A118009A2950 /* test-data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0216BEF27554AC8009A2950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0216BD527554AC6009A2950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0216BDC27554AC6009A2950;
+			remoteInfo = AirspeedCalibrator;
+		};
+		D0216BF927554AC8009A2950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0216BD527554AC6009A2950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0216BDC27554AC6009A2950;
+			remoteInfo = AirspeedCalibrator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0216BDD27554AC6009A2950 /* AirspeedCalibrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirspeedCalibrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0216BE027554AC6009A2950 /* AirspeedCalibratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirspeedCalibratorApp.swift; sourceTree = "<group>"; };
+		D0216BE227554AC6009A2950 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0216BE427554AC8009A2950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0216BE727554AC8009A2950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0216BE927554AC8009A2950 /* AirspeedCalibrator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirspeedCalibrator.entitlements; sourceTree = "<group>"; };
+		D0216BEE27554AC8009A2950 /* AirspeedCalibratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirspeedCalibratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0216BF227554AC8009A2950 /* AirspeedCalibratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirspeedCalibratorTests.swift; sourceTree = "<group>"; };
+		D0216BF827554AC8009A2950 /* AirspeedCalibratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirspeedCalibratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0216BFC27554AC8009A2950 /* AirspeedCalibratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirspeedCalibratorUITests.swift; sourceTree = "<group>"; };
+		D0216BFE27554AC8009A2950 /* AirspeedCalibratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirspeedCalibratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0216C0B27569086009A2950 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0216C0D27569F1D009A2950 /* GarminLogReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarminLogReader.swift; sourceTree = "<group>"; };
+		D0216C0F27569FAB009A2950 /* LogFileBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFileBase.swift; sourceTree = "<group>"; };
+		D0216C132756A118009A2950 /* test-data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "test-data"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0216BDA27554AC6009A2950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0216BEB27554AC8009A2950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0216BF527554AC8009A2950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0216BD427554AC6009A2950 = {
+			isa = PBXGroup;
+			children = (
+				D0216C132756A118009A2950 /* test-data */,
+				D0216C0B27569086009A2950 /* README.md */,
+				D0216BDF27554AC6009A2950 /* AirspeedCalibrator */,
+				D0216BF127554AC8009A2950 /* AirspeedCalibratorTests */,
+				D0216BFB27554AC8009A2950 /* AirspeedCalibratorUITests */,
+				D0216BDE27554AC6009A2950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0216BDE27554AC6009A2950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0216BDD27554AC6009A2950 /* AirspeedCalibrator.app */,
+				D0216BEE27554AC8009A2950 /* AirspeedCalibratorTests.xctest */,
+				D0216BF827554AC8009A2950 /* AirspeedCalibratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0216BDF27554AC6009A2950 /* AirspeedCalibrator */ = {
+			isa = PBXGroup;
+			children = (
+				D0216BE027554AC6009A2950 /* AirspeedCalibratorApp.swift */,
+				D0216BE227554AC6009A2950 /* ContentView.swift */,
+				D0216BE427554AC8009A2950 /* Assets.xcassets */,
+				D0216BE927554AC8009A2950 /* AirspeedCalibrator.entitlements */,
+				D0216BE627554AC8009A2950 /* Preview Content */,
+				D0216C0D27569F1D009A2950 /* GarminLogReader.swift */,
+				D0216C0F27569FAB009A2950 /* LogFileBase.swift */,
+			);
+			path = AirspeedCalibrator;
+			sourceTree = "<group>";
+		};
+		D0216BE627554AC8009A2950 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0216BE727554AC8009A2950 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0216BF127554AC8009A2950 /* AirspeedCalibratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0216BF227554AC8009A2950 /* AirspeedCalibratorTests.swift */,
+			);
+			path = AirspeedCalibratorTests;
+			sourceTree = "<group>";
+		};
+		D0216BFB27554AC8009A2950 /* AirspeedCalibratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0216BFC27554AC8009A2950 /* AirspeedCalibratorUITests.swift */,
+				D0216BFE27554AC8009A2950 /* AirspeedCalibratorUITestsLaunchTests.swift */,
+			);
+			path = AirspeedCalibratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0216BDC27554AC6009A2950 /* AirspeedCalibrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0216C0227554AC8009A2950 /* Build configuration list for PBXNativeTarget "AirspeedCalibrator" */;
+			buildPhases = (
+				D0216BD927554AC6009A2950 /* Sources */,
+				D0216BDA27554AC6009A2950 /* Frameworks */,
+				D0216BDB27554AC6009A2950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirspeedCalibrator;
+			productName = AirspeedCalibrator;
+			productReference = D0216BDD27554AC6009A2950 /* AirspeedCalibrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0216BED27554AC8009A2950 /* AirspeedCalibratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0216C0527554AC8009A2950 /* Build configuration list for PBXNativeTarget "AirspeedCalibratorTests" */;
+			buildPhases = (
+				D0216BEA27554AC8009A2950 /* Sources */,
+				D0216BEB27554AC8009A2950 /* Frameworks */,
+				D0216BEC27554AC8009A2950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0216BF027554AC8009A2950 /* PBXTargetDependency */,
+			);
+			name = AirspeedCalibratorTests;
+			productName = AirspeedCalibratorTests;
+			productReference = D0216BEE27554AC8009A2950 /* AirspeedCalibratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0216BF727554AC8009A2950 /* AirspeedCalibratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0216C0827554AC8009A2950 /* Build configuration list for PBXNativeTarget "AirspeedCalibratorUITests" */;
+			buildPhases = (
+				D0216BF427554AC8009A2950 /* Sources */,
+				D0216BF527554AC8009A2950 /* Frameworks */,
+				D0216BF627554AC8009A2950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0216BFA27554AC8009A2950 /* PBXTargetDependency */,
+			);
+			name = AirspeedCalibratorUITests;
+			productName = AirspeedCalibratorUITests;
+			productReference = D0216BF827554AC8009A2950 /* AirspeedCalibratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0216BD527554AC6009A2950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D0216BDC27554AC6009A2950 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D0216BED27554AC8009A2950 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D0216BDC27554AC6009A2950;
+					};
+					D0216BF727554AC8009A2950 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D0216BDC27554AC6009A2950;
+					};
+				};
+			};
+			buildConfigurationList = D0216BD827554AC6009A2950 /* Build configuration list for PBXProject "AirspeedCalibrator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0216BD427554AC6009A2950;
+			productRefGroup = D0216BDE27554AC6009A2950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0216BDC27554AC6009A2950 /* AirspeedCalibrator */,
+				D0216BED27554AC8009A2950 /* AirspeedCalibratorTests */,
+				D0216BF727554AC8009A2950 /* AirspeedCalibratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0216BDB27554AC6009A2950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0216C142756A118009A2950 /* test-data in Resources */,
+				D0216C0C27569086009A2950 /* README.md in Resources */,
+				D0216BE827554AC8009A2950 /* Preview Assets.xcassets in Resources */,
+				D0216BE527554AC8009A2950 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0216BEC27554AC8009A2950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0216BF627554AC8009A2950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0216BD927554AC6009A2950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0216BE327554AC6009A2950 /* ContentView.swift in Sources */,
+				D0216C1027569FAB009A2950 /* LogFileBase.swift in Sources */,
+				D0216BE127554AC6009A2950 /* AirspeedCalibratorApp.swift in Sources */,
+				D0216C0E27569F1D009A2950 /* GarminLogReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0216BEA27554AC8009A2950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0216BF327554AC8009A2950 /* AirspeedCalibratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0216BF427554AC8009A2950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0216BFF27554AC8009A2950 /* AirspeedCalibratorUITestsLaunchTests.swift in Sources */,
+				D0216BFD27554AC8009A2950 /* AirspeedCalibratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0216BF027554AC8009A2950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0216BDC27554AC6009A2950 /* AirspeedCalibrator */;
+			targetProxy = D0216BEF27554AC8009A2950 /* PBXContainerItemProxy */;
+		};
+		D0216BFA27554AC8009A2950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0216BDC27554AC6009A2950 /* AirspeedCalibrator */;
+			targetProxy = D0216BF927554AC8009A2950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0216C0027554AC8009A2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0216C0127554AC8009A2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0216C0327554AC8009A2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirspeedCalibrator/AirspeedCalibrator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirspeedCalibrator/Preview Content\"";
+				DEVELOPMENT_TEAM = CWNCTDGDL5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serenitymountainranch.AirspeedCalibrator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0216C0427554AC8009A2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirspeedCalibrator/AirspeedCalibrator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirspeedCalibrator/Preview Content\"";
+				DEVELOPMENT_TEAM = CWNCTDGDL5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serenitymountainranch.AirspeedCalibrator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0216C0627554AC8009A2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWNCTDGDL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serenitymountainranch.AirspeedCalibratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirspeedCalibrator.app/Contents/MacOS/AirspeedCalibrator";
+			};
+			name = Debug;
+		};
+		D0216C0727554AC8009A2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWNCTDGDL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serenitymountainranch.AirspeedCalibratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirspeedCalibrator.app/Contents/MacOS/AirspeedCalibrator";
+			};
+			name = Release;
+		};
+		D0216C0927554AC8009A2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWNCTDGDL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serenitymountainranch.AirspeedCalibratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AirspeedCalibrator;
+			};
+			name = Debug;
+		};
+		D0216C0A27554AC8009A2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWNCTDGDL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serenitymountainranch.AirspeedCalibratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AirspeedCalibrator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0216BD827554AC6009A2950 /* Build configuration list for PBXProject "AirspeedCalibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0216C0027554AC8009A2950 /* Debug */,
+				D0216C0127554AC8009A2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0216C0227554AC8009A2950 /* Build configuration list for PBXNativeTarget "AirspeedCalibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0216C0327554AC8009A2950 /* Debug */,
+				D0216C0427554AC8009A2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0216C0527554AC8009A2950 /* Build configuration list for PBXNativeTarget "AirspeedCalibratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0216C0627554AC8009A2950 /* Debug */,
+				D0216C0727554AC8009A2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0216C0827554AC8009A2950 /* Build configuration list for PBXNativeTarget "AirspeedCalibratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0216C0927554AC8009A2950 /* Debug */,
+				D0216C0A27554AC8009A2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0216BD527554AC6009A2950 /* Project object */;
+}
